@@ -780,7 +780,7 @@ public sealed partial class MainPage : Page
 
     private void OnAboutClicked(object sender, RoutedEventArgs e) => _ = ShowAboutAsync();
 
-    private const string ReleasesUrl = "https://github.com/elliotttate/flatout4-save-editor/releases";
+    private const string ReleasesUrl = "https://github.com/Flat2VRStudios/FlatOut4SaveEditor/releases";
 
     // "Version 0.4.7 (abc1234)", or "Development build (abc1234)" for a local build.
     public static string VersionText

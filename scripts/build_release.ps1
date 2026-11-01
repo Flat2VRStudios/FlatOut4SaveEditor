@@ -13,7 +13,7 @@
 #   powershell -File scripts\build_release.ps1 -Version 0.6.0 [-RepoRoot <clean worktree>]
 
 param(
-    [string]$Version = "0.6.0",
+    [string]$Version = "0.6.1",
     [string]$RepoRoot = (Resolve-Path "$PSScriptRoot\..").Path
 )
 

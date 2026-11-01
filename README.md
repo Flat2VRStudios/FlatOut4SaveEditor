@@ -50,7 +50,7 @@ Keep **Back up before saving** on unless you are editing a copy: it copies the f
 
 ## Download
 
-Each GitHub release has two downloads. Pick one:
+Each [GitHub release](https://github.com/Flat2VRStudios/FlatOut4SaveEditor/releases) has two downloads. Pick one:
 
 - **`FlatOut4SaveEditor-v<version>-Windows-x64.zip`** (portable, installs nothing). Extract it anywhere writable and run `FlatOut4SaveEditor.exe`. The top level holds only that launcher, this README and an `App` folder with the editor and its runtime; keep them together. Delete the folder to remove it.
 - **`FlatOut4SaveEditor-v<version>-Setup.exe`** (optional install, no administrator rights). It extracts the editor to `%LOCALAPPDATA%\FlatOut4SaveEditor\app`, adds a **FlatOut 4 Save Editor** Start menu shortcut and starts it. Running a newer Setup updates the install (close the editor first). To remove it, delete that folder and the shortcut.
